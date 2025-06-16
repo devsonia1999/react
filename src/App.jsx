@@ -1,15 +1,9 @@
 import React from 'react';
-import Footer from './components/layout/Footer';
-import Header from './components/layout/Header';
-import Home from './components/pages/Home';
+import Router from './router/Router.jsx';
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Home/>
-      <Footer/>
-    </>
+    <Router/>
   );
 }
 
