@@ -1,8 +1,8 @@
+import Footer from '@/layout/Footer.jsx';
+import Header from '@/layout/Header.jsx';
+import Home from '@/pages/Home.jsx';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Footer from '../components/layout/Footer.jsx';
-import Header from '../components/layout/Header.jsx';
-import Home from '../components/pages/Home.jsx';
 
 function Router() {
   return (
